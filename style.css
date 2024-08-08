@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Grey+Qo&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+.inter{
+    font-family: "Inter";
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+  }
+  .grey-qo-regular {
+    font-family: "Grey Qo";
+  }
+  
+
+  .display-flex{
+    display: flex;
+  }
+
+  .container-1{
+    justify-content: space-around;
+    margin-top: 3.6rem;
+  }
+
+  .logo{
+    color: rgb(230, 83, 60);
+    font-family: Inter;
+    font-size: 36px;
+    font-weight: 800;
+    text-align: left;
+  }
+  ul{
+    gap: 3rem;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: left;
+    /* box-sizing: border-box; */
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 39px;
+    justify-content: center;
+    align-items: center;
+    padding: 0 1.25rem;
+
+  }
+  .home{
+    border-radius: 46px;
+    background: rgb(230, 83, 60);
+    padding: 0.5rem  1.25rem ;
+
+  }
+  ul > li{
+    list-style: none;
+  }
+  ul > li >a{
+    text-decoration: none;
+    color: aliceblue;
+    
+  }
