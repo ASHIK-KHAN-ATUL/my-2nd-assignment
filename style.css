@@ -1,65 +1,314 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Grey+Qo&display=swap');
-
 *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    background-color: black;
+    background: black;
 }
-.inter{
-    font-family: "Inter";
-    font-optical-sizing: auto;
-    font-weight: weight;
-    font-style: normal;
-  }
-  .grey-qo-regular {
-    font-family: "Grey Qo";
-  }
-  
-
-  .display-flex{
+header{
+    /* background: black; */
+}
+.navbar{ 
     display: flex;
-  }
-
-  .container-1{
-    justify-content: space-around;
-    margin-top: 3.6rem;
-  }
-
-  .logo{
+    justify-content: space-between;
+    padding: 3.5rem 0 0 0;
+    align-items: center;
+}
+.logo{
     color: rgb(230, 83, 60);
     font-family: Inter;
-    font-size: 36px;
+    font-size: 2.25rem;
     font-weight: 800;
+    margin-left: 11.8rem;
+
+}
+ul{
+    display: flex;
+    list-style: none;
+    margin-right: 11.8rem;
+    gap: 3rem; 
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 39px;
+    padding: 0.75rem 0.5rem;
+
+
+}
+.nav-link{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 1.1rem;
+    font-weight: 400;  
+}
+.home{
+    border-radius: 46px;
+    background: rgb(230, 83, 60);
+    padding: 0.5rem 1.25rem;
+}
+.banner{
+    display: flex;
+    justify-content: space-between;
+}
+.banner-content{
+    margin-top: 8.43rem;
+    margin-left: 11.8rem;
+}
+.banner-title{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 4.8rem;
+    font-weight: 900;
+    line-height: 90%;
     text-align: left;
-  }
-  ul{
-    gap: 3rem;
+    margin: 0;
+}
+.span2{
+    font-family: "Grey Qo";
+    font-weight: 100;
+    font-size: 7rem ;
+    background: none;
+}
+.span{
+    background: none;
+}
+.banner-des{
+    margin: 1.75rem 0rem;
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    /* line-height: 24px;
+    letter-spacing: 0.5px; */
+}
+.button{
+    display: flex;
+    gap: 1rem;
+}
+.btn1{
+    border: none;
+    border-radius: 42px;
+    background: rgb(230, 83, 60);
     color: rgb(255, 255, 255);
     font-family: Inter;
     font-size: 18px;
+    font-weight: 600;
+    padding: 1rem 2.5rem;
+}
+.btn2{
+    background: none;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 42px;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 1rem 2.5rem;
+}
+.banner-image{
+   margin-right: 13rem;
+}
+
+
+
+
+
+.content-1{
+    text-align: center;
+}
+
+.content-1-title{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 0;
+}
+.content-1-des{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
     font-weight: 400;
-    text-align: left;
-    /* box-sizing: border-box; */
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    border-radius: 39px;
-    justify-content: center;
-    align-items: center;
-    padding: 0 1.25rem;
+    margin: 1rem 19rem;
+}
+.content-2{
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(4 , 1fr);
+    margin: 2rem 10rem;
+}
 
-  }
-  .home{
-    border-radius: 46px;
-    background: rgb(230, 83, 60);
-    padding: 0.5rem  1.25rem ;
+.card-img{
+    border-radius: 50%;
+    border: 1px solid gray;
+}
+.card-title{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.card-des{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+}
 
-  }
-  ul > li{
-    list-style: none;
-  }
-  ul > li >a{
-    text-decoration: none;
-    color: aliceblue;
+
+.container-2{
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem 12rem;
+    border-radius: 18px;
+    background: rgb(34, 34, 34);;
+}
+.container-2-1{
+    background: none;
+}
+.container-2-1-title{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 900;
+    background: none;
+    margin: 0;
     
-  }
+}
+.container-2-1-des{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    background: none;
+    width: 17rem;
+    
+}
+.container-2-2{
+    background: none;
+}
+.container-2-2-img{
+    width: 366px;
+    height: 312px;
+    background: none;
+    border-radius: 18px; 
+    margin: 0;
+}
+
+
+
+  
+@media screen and (max-width :576px){
+    .navbar{
+        align-items: center;
+        gap: 2rem;
+    }
+    .logo{ 
+        margin-left: 1rem;
+    }
+    ul{
+        gap: 1rem;
+    }
+
+    /* +++++++++++ */
+    .banner{
+        flex-direction: column;
+    }
+    .banner-content {
+        margin-top: 1rem;
+        margin-left: 1rem;
+    }
+    .banner-title{
+        font-size: 2.5rem;
+    }
+    .banner-des{
+        font-size: 1rem;
+    }
+    .button{
+        justify-content: center;
+    }
+    .banner-image{
+        margin: 0;
+        display: flex;
+        justify-content: center;
+    }
+    /* ++++++++++++++++++++++++++++++ */
+
+    .content-1-des{
+        margin: 0;
+    }
+    .content-2 {
+        text-align: center;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin: 1rem 0rem;
+    }
+}
+
+
+@media screen and (min-width :577px) and (max-width :992px){
+    .navbar{
+        align-items: center;
+        gap: 10%;
+    }
+    .logo{ 
+        margin-left: 1rem;
+    }
+    ul{
+        gap: 1rem;
+    }
+
+    /* ===================== */
+
+    .banner{
+        flex-direction: column;
+    }
+    .banner-content {
+        margin-top: 1rem;
+        margin-left: 1rem;
+    }
+    .banner-title{
+        font-size: 4.5rem;
+    }
+    .banner-des{
+        font-size: 1rem;
+    }
+    .button{
+        justify-content: center;
+    }
+    .banner-image{
+        margin: 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    /* ++++++++++++++++++++++++++++ */
+
+    .content-1-des{
+        margin: 0;
+    }
+    .content-2 {
+        text-align: center;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin: 1rem 0rem;
+    }
+
+}
+
+
+@media screen and (min-width :993px) and (max-width :1583px){
+    .banner-content {
+        margin-top: 7rem;
+        margin-left: 1rem;
+    }
+    .banner-image {
+        margin-right: 1rem;
+    }
+    .content-1-des{
+        margin: 0;
+    }
+    .content-2 {
+        text-align: center;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin: 1rem 0rem;
+    }
+
+}
