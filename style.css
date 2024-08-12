@@ -158,9 +158,12 @@ ul{
     margin: 2rem 12rem;
     border-radius: 18px;
     background: rgb(34, 34, 34);;
+    /* padding: 2.5rem 35rem 2.5rem 3.3rem; */
 }
 .container-2-1{
     background: none;
+    padding: 2.5rem 0 2.5rem 3.5rem;
+  
 }
 .container-2-1-title{
     color: rgb(255, 255, 255);
@@ -177,18 +180,16 @@ ul{
     font-size: 14px;
     font-weight: 400;
     background: none;
-    width: 17rem;
-    
+    width: 25rem;
 }
 .container-2-2{
     background: none;
+    padding: 2.5rem 3.5rem 2.5rem 0;
 }
 .container-2-2-img{
-    width: 366px;
-    height: 312px;
+    zoom: 25%;
     background: none;
     border-radius: 18px; 
-    margin: 0;
 }
 
 
@@ -224,9 +225,12 @@ ul{
         justify-content: center;
     }
     .banner-image{
-        margin: 0;
+        margin:0;
         display: flex;
         justify-content: center;
+    }
+    .span2{
+        font-size: 4rem;
     }
     /* ++++++++++++++++++++++++++++++ */
 
@@ -239,6 +243,29 @@ ul{
         grid-template-columns: repeat(1, 1fr);
         margin: 1rem 0rem;
     }
+
+    /* ============================================== */
+
+    .container-2 {
+        margin: 0 2rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .container-2-1{
+        padding: 0;
+        margin: 2rem;
+    }
+    .container-2-1-title{
+        font-size: 2rem;
+    }
+    .btn3{
+        width: 100%;
+    }
+    .container-2-2{
+        padding: 0;
+    }
+
 }
 
 
@@ -288,6 +315,26 @@ ul{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         margin: 1rem 0rem;
+    }
+    /* ================================== */
+
+    .container-2 {
+        margin: 0 2rem;
+        display: flex;
+        align-items: center;
+    }
+    .container-2-1{
+        padding: 0;
+        margin: 2rem;
+    }
+    .container-2-1-title{
+        font-size: 2rem;
+    }
+    .btn3{
+        width: 100%;
+    }
+    .container-2-2{
+        padding: 0;
     }
 
 }
