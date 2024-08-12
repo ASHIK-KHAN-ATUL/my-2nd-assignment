@@ -264,6 +264,7 @@ ul{
     }
     .container-2-2{
         padding: 0;
+        margin-bottom: 2rem;
     }
 
 }
@@ -330,11 +331,21 @@ ul{
     .container-2-1-title{
         font-size: 2rem;
     }
+    .container-2-1-des {
+        width: 15rem;
+    }
     .btn3{
         width: 100%;
     }
     .container-2-2{
         padding: 0;
+        margin-right: 2rem;
+    }
+
+    .container-2-2-img{
+        height: 15rem;
+        width: 12rem;
+        zoom: 0;
     }
 
 }
@@ -356,6 +367,22 @@ ul{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         margin: 1rem 0rem;
+    }
+
+
+    .container-2-1-des {
+        width: 15rem;
+    }
+    .btn3{
+        width: 100%;
+    }
+    .container-2-2{
+        margin-right: 2rem;
+    }
+    .container-2-2-img{
+        height: 15rem;
+        width: 12rem;
+        zoom: 0;
     }
 
 }
