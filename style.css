@@ -1,9 +1,9 @@
 *{
     background: black;
 }
-header{
-    /* background: black; */
-}
+/* header{
+    /* background: black; 
+} */
 .navbar{ 
     display: flex;
     justify-content: space-between;
@@ -18,7 +18,7 @@ header{
     margin-left: 11.8rem;
 
 }
-ul{
+.navbar > ul{
     display: flex;
     list-style: none;
     margin-right: 11.8rem;
@@ -261,6 +261,95 @@ ul{
 
 
 
+/*  This  is  footer TAG             ============================================================== */
+footer{
+    background: rgba(255, 255, 255, 0.1);
+}
+
+
+/*  This  is  footer class============================================================== */
+.footer{
+    /* background: rgba(255, 255, 255, 0.1); */
+    background: none;
+    display: flex;
+    margin-top: 4rem;
+    justify-content: space-around;
+    padding: 5rem 12rem;
+    
+}
+.footer-1{
+    background: none;
+    width: 50%;
+}
+.footer-1-title{
+    color: rgb(230, 83, 60);
+    font-family: Inter;
+    font-size: 70px;
+    font-weight: 800;
+    margin: 0;
+    background: none;
+}
+.footer-1-des{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    background: none;
+    width: 70%;
+}
+
+
+.footer-2{
+    background: none;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.footer-2-1,.footer-2-2 {
+    background: none;
+}
+.footer-2-title{
+    background: none;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 700;
+
+}
+.footer-2-ul{
+    background: none;
+    color: white;
+    list-style: none;
+    font-family: inter;
+    opacity: 0.5;
+    padding: 0;
+}
+.footer-2-ul>li{
+    background: none;
+    
+}
+hr{
+    /* border: 2px solid rgba(255, 255, 255, 0.1); */
+    color: (255, 255, 255, 0.1);
+    width: 80%;
+    align-items: center;
+    opacity: 0.5;
+
+}
+.reserved{
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 1.2rem;
+    font-weight: 400;
+    background: none;
+    margin: 0;
+    padding-bottom: 2rem;
+}
+
+
+
   
 @media screen and (max-width :576px){
     .navbar{
@@ -272,6 +361,9 @@ ul{
     }
     ul{
         gap: 1rem;
+    }
+    .nav-link{
+        font-size: 0.7rem;
     }
 
     /* +++++++++++ */
@@ -361,6 +453,34 @@ ul{
     .card-pic-des{
         display: block;
     }
+
+
+
+    /*  This  is  footer TAG             ============================================================== */
+footer{
+    margin: 10%;
+}
+
+
+/*  This  is  footer CLASS ============================================================== */
+.footer{
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+}
+.footer-1{
+    width: 100%;
+    text-align: center;
+}
+.footer-1-des{ 
+    width: 100%;
+}
+.footer-2{
+    width: 100%;
+    flex-direction: column;
+}
+
+
 
 }
 
@@ -472,6 +592,33 @@ ul{
     .card-pic-des{
         display: block;
     }
+
+
+
+
+    
+    /*  This  is  footer TAG             ============================================================== */
+footer{
+    margin: 10%;
+}
+
+
+/*  This  is  footer CLASS ============================================================== */
+.footer{
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+}
+.footer-1{
+    width: 100%;
+}
+.footer-1-des{ 
+    width: 100%;
+}
+.footer-2{
+    width: 100%;
+}
+
 
 }
 
