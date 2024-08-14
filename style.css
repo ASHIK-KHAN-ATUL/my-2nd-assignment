@@ -470,11 +470,11 @@ hr{
 
     .sp-card-1{
         left: 19rem;
-        bottom: 14rem;
+        bottom: 8rem;
     }
     .sp-card-2{
-        left: 4.5rem;
-        bottom: 2.5rem;
+        left: 0rem;
+        top: 45rem;
     }
     /* ++++++++++++++++++++++++++++++ */
 
@@ -607,8 +607,8 @@ footer{
     }
 
     .sp-card-1{
-        left: 32rem;
-        bottom: 8rem;
+        left: 52%;
+        bottom: 4rem;
     }
     .sp-card-2 {
         left: 17rem;
