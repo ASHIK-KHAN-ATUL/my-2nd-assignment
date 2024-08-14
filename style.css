@@ -105,6 +105,82 @@
    margin-right: 13rem;
 }
 
+.sp-card-1{
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(10px);
+    background: rgba(255, 255, 255, 0.1);
+    width: 10.9rem;
+    height: 6.1rem;
+    text-align: start;
+    padding: 1rem;
+    position: absolute;
+    left: 98rem;
+    bottom: 34rem;
+}
+.sp-card-1-title{
+    background: none;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 2.7rem;
+    font-weight: 900;
+    margin: 0;
+}
+.sp-card-1-des{
+    background: none;
+    color: rgba(255, 255, 255, 0.65);
+    font-family: Inter;
+    font-size: 0.8rem;
+    font-weight: 400;
+    margin: 0;
+}
+
+.sp-card-2{
+    background: none;
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(10px);
+    background: rgba(48, 48, 48, 0.54);
+    display: flex;
+    align-items: center;
+    width: 12.8rem;
+    height: 6rem;
+    padding: 1rem;
+    position: absolute;
+    left: 77rem;
+    bottom: 16rem;
+}
+.circle{
+    width: 50px;
+    height: 50px;
+    background: rgb(230, 83, 60);
+    border-radius: 50%;
+    
+}
+.circle-1{
+    box-sizing: border-box;
+    background: none;
+    padding: 1rem;
+}
+.sp-card-2-title{
+    background: none;
+    color: rgb(250, 250, 249);
+    font-family: Inter;
+    font-size: 1.5rem;
+    font-weight: 900;
+    margin: 0;
+}
+.sp-card-2-des{
+    background: none;
+    color: rgba(239, 237, 232, 0.65);
+    font-family: Inter;
+    font-size: 0.8rem;
+    font-weight: 400;
+    margin: 0;
+}
+
 
 
 
@@ -391,6 +467,15 @@ hr{
     .span2{
         font-size: 4rem;
     }
+
+    .sp-card-1{
+        left: 19rem;
+        bottom: 14rem;
+    }
+    .sp-card-2{
+        left: 4.5rem;
+        bottom: 2.5rem;
+    }
     /* ++++++++++++++++++++++++++++++ */
 
     .content-1-des{
@@ -521,6 +606,15 @@ footer{
         justify-content: center;
     }
 
+    .sp-card-1{
+        left: 32rem;
+        bottom: 8rem;
+    }
+    .sp-card-2 {
+        left: 17rem;
+        top: 54rem;
+    }
+
     /* ++++++++++++++++++++++++++++ */
 
     .content-1-des{
@@ -631,6 +725,16 @@ footer{
     .banner-image {
         margin-right: 1rem;
     }
+
+    .sp-card-1{
+           left: 80%;
+            bottom: 43%;
+    }
+    .sp-card-2 {
+        left: 60%;
+        bottom: 25%;
+    }
+
     .content-1-des{
         margin: 0;
     }
