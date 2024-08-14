@@ -607,8 +607,9 @@ footer{
     }
 
     .sp-card-1{
+        position: relative;
         left: 52%;
-        bottom: 4rem;
+        bottom: 25rem;
     }
     .sp-card-2 {
         left: 17rem;
